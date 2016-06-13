@@ -1,6 +1,6 @@
 # --- General options --- #
 
-url: "http://cketti.github.io"
+url: "http://cketti.de"
 baseurl: ""
 
 title: "cketti"
@@ -33,7 +33,7 @@ footer-links-active:
   linkedin: false
   stackoverflow: false
 
-url-pretty: "cketti.github.io"
+url-pretty: "cketti.de"
 
 # --- Misc --- #
 
