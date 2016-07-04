@@ -84,7 +84,7 @@ Using [`EXTRA_INITIAL_INTENTS`](https://developer.android.com/reference/android/
 In `onCreate()` we simply get the URL from the Intent that started the Activity and copy it to the clipboard. Then we finish the Activity right away to return to the screen where the Share event originated.
 
 The icon and label we give `CopyToClipboardActivity` in the app manifest are the ones being used by the Chooser dialog when displaying our custom entry.
-Using the transparent theme disables the activity transition animation when our short-lived Activity is launched.
+Using the `Theme.NoDisplay` theme disables the activity transition animation when our short-lived Activity is launched.
 
 <script src="https://gist.github.com/cketti/1ea1b31fa3e75046ec0db2fdbc04f06e.js"></script>
 
@@ -106,3 +106,5 @@ Fortunately, Android's powerful Intent mechanism means you don't actually need t
 Writing such an app is easy enough and will be the topic of a future post.
 
 If you have other ideas on how to make copying links to the clipboard easier, I'd love to hear from you. I'm [@cketti](https://twitter.com/cketti) on Twitter.
+
+[Update](https://github.com/cketti/cketti.github.io/commits/master/_posts/2016-06-15-share-url-to-clipboard.md): Use `Theme.NoDisplay` instead of `Theme.Translucent.NoTitleBar` as [suggested by @devangelslondon](https://twitter.com/devangelslondon/status/745403885041246209).
