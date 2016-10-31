@@ -22,7 +22,11 @@ title: cketti on code
     </p>
 
     <div class="post-entry">
-      {{ post.content | strip_html | truncatewords: 40 | xml_escape}}
+      {% if post.lead %}
+        {{ post.lead }}
+      {% else %}
+        {{ post.content | strip_html | truncatewords: 40 | xml_escape }}
+      {% endif %}
 	  <a href="{{ post.url | prepend: site.baseurl }}" class="post-read-more">&raquo;</a>
     </div>
 

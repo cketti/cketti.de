@@ -519,3 +519,18 @@ pre code {
   text-align: center;
   color: #666;
 }
+
+blockquote p {
+  margin-top: 0px;
+}
+
+.intro-header.big-img .img-attribution {
+  background: rgba(30, 30, 30, 0.6);
+  position: absolute;
+  padding: 5px 10px;
+  font-size: 11px;
+  color: #EEE;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  right: 0;
+  bottom: 0;
+}
