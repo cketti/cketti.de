@@ -23,3 +23,6 @@ In addition to this website I have online presences on the following sites:
 * Speakerdeck: [cketti](https://speakerdeck.com/cketti)
 * Google+: [+cketti](https://plus.google.com/+cketti)
 * Twitter: [@cketti](https://twitter.com/cketti)
+
+{: .image-in-post}
+[![Official Bronze Sponsor of the Email Emoji](/img/bronze-1F4E7.png)](http://unicode.org/consortium/adopted-characters.html#b1F4E7)
