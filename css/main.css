@@ -21,7 +21,7 @@ h1,h2,h3,h4,h5,h6 {
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 800;
 }
-a {
+a, a code {
   color: #008AFF;
 }
 a:hover,
