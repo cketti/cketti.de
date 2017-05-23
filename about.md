@@ -25,4 +25,4 @@ In addition to this website I have online presences on the following sites:
 * Twitter: [@cketti](https://twitter.com/cketti)
 
 {: .image-in-post}
-[![Official Bronze Sponsor of the Email Emoji](/img/bronze-1F4E7.png)](http://unicode.org/consortium/adopted-characters.html#b1F4E7)
+[![Official Bronze Sponsor of the Email Emoji](/img/bronze-1F4E7.png)](http://unicode.org/consortium/adopted-characters.html#b1F4E7) [![Official Bronze Sponsor of the Sauropod Emoji](/img/bronze-1F995.png)](http://unicode.org/consortium/adopted-characters.html#b1F995)
