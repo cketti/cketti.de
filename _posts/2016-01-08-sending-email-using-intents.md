@@ -1,8 +1,6 @@
 ---
 layout: post
 title: Sending Email using Intents
-bigimg: /img/sending-email-using-intents/email.jpeg
-bigimg_attribution: Photo by Dennis Skley, CC BY-ND 2.0
 lead: Many things on Android are as easy as starting an Activity using the right Intent. Sending an email to a specific recipient is one of those things.
 ---
 
