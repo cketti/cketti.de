@@ -21,7 +21,6 @@ In addition to this website I have online presences on the following sites:
 
 * GitHub: [cketti](https://github.com/cketti)
 * Speakerdeck: [cketti](https://speakerdeck.com/cketti)
-* Google+: [+cketti](https://plus.google.com/+cketti)
 * Twitter: [@cketti](https://twitter.com/cketti)
 
 {: .image-in-post}
