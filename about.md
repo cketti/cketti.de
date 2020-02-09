@@ -1,21 +1,15 @@
 ---
 layout: page
 title: About
-#bigimg: "/img/berlin.jpg"
 ---
 
-Hi, I go by the name **cketti**. I am a freelance software developer living in Berlin, Germany.
+Hi, I go by the name **cketti**.
 
-This site is as close to a curriculum vitae as I ever plan to create. It contains this incomplete description of what I do, and a list of ways to [contact](/contact/) me.
+I am a software developer living in Berlin, Germany.
 
-Since my first contact with an Android phone in 2009 I am obsessed with the system. The fact that I couldn't get any of the email apps of that time to work with my email provider led me to contributing a patch to [K-9 Mail](https://github.com/k9mail/k-9) which remedied that. This was my entry into the world of serious open source development. Nowadays I am the lead developer of the email app *K-9 Mail* and author of several small apps and libraries.
+I am the maintainer of [K-9 Mail](https://k9mail.app/), an open source email app for Android.
 
-In 2012 I moved to Berlin and immediately fell in love with the local Android community. Soon I became involved as a co-organizer of [Berlindroid](https://www.meetup.com/berlindroid/), a monthly meetup for Android developers.  
-In 2015 and 2016 I have been part of the program committee for the Android developer conference [droidcon Berlin](https://droidcon.de/).
-
-Due to my work on *K-9 Mail* I have become somewhat of an expert on the topic of email on Android. I'm also very interested in the way Android apps interoperate. In my opinion the numerous options for different apps to work with each other is the best feature of the platform.  
-If you need professional help with an Android app, especially when it comes to email or interoperability issues, please don't hesitate to [contact](/contact/) me.
-
+I am one of the organizers of [Berlindroid](https://berlindroid.de/), the Android developer meetup in Berlin.
 
 In addition to this website I have online presences on the following sites:
 
