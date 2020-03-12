@@ -1,6 +1,7 @@
 ---
 layout: page
 title: About
+meta-description: Who is cketti?
 ---
 
 Hi, I go by the name **cketti**.
