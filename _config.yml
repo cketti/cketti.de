@@ -9,38 +9,42 @@ description: "cketti on code"
 # --- Navigation bar options --- #
 
 navbar-links:
-  Blog: ""
+  Blog: "/"
   About: "about"
   Contact: "contact"
 
 avatar: "/img/cketti.png"
 
+# --- Background colour/image options --- #
+
+navbar-col: "#F5F5F5"
+navbar-text-col: "#404040"
+navbar-children-col: "#F5F5F5"
+page-col: "#FFFFFF"
+link-col: "#008AFF"
+hover-col: "#0085A1"
+footer-col: "#F5F5F5"
+footer-text-col: "#777777"
+footer-link-col: "#404040"
+
 # --- Footer options --- #
 
 author:
   name: "cketti"
+  twitter: cketti
+
+social-network-links:
   email: "hello@cketti.de"
   github: "cketti"
   twitter: "cketti"
-
-footer-links-active:
-  rss: false
-  facebook: false
-  email: true
-  twitter: true
-  github: true
-  linkedin: false
-  stackoverflow: false
 
 url-pretty: "cketti.de"
 
 # --- Misc --- #
 
-# Fill in your Disqus shortname (NOT the userid) if you want to support Disqus comments
-#disqus: ""
-
-# Fill in your Google Analytics ID to track your website using GA
-#google_analytics: ""
+excerpt_length: 40
+title-separator: "-"
+date_format: "%B %-d, %Y"
 
 # --- Don't need to touch anything below here (but you can if you want) --- #
 
@@ -63,6 +67,7 @@ defaults:
     values:
       layout: "post"
       comments: false  # add comments to all blog posts
+      social-share: false # add social media sharing buttons to all blog posts
   -
     scope:
       path: "" # all files
@@ -70,13 +75,18 @@ defaults:
       layout: "page"
       show-avatar: true
 
+# Use tags index page and make tags on each post clickable
+link-tags: true
+
 # Exclude these files from production site
 exclude:
+  - CHANGELOG.md
+  - CNAME
+  - Dockerfile
   - Gemfile
   - Gemfile.lock
   - LICENSE
   - README.md
-  - CNAME
   - Vagrantfile
 
 # prose.io config
@@ -118,11 +128,20 @@ prose:
           help: "Enter date of post."
           placeholder: "yyyy-mm-dd"
           alterable: true
+      - name: "image"
+        field:
+          element: "text"
+          label: "Image"
+          help: "Add a thumbnail image to your post."
+          placeholder: "Thumbnail"
+          alterable: true
       - name: "published"
         field:
           element: "checkbox"
           label: "Publish"
           help: "Check to publish post, uncheck to hide."
 
-gems:
+plugins:
   - jekyll-paginate
+  - jekyll-sitemap
+
