@@ -25,15 +25,16 @@ Judging by the reactions, Jake is not the only one frustrated by this. So let's 
 
 Sharing content on Android is as simple as creating an Intent with the [`ACTION_SEND`](https://developer.android.com/reference/android/content/Intent.html#ACTION_SEND) action. You also have to specify the media type of the content. In this case we're only interested in text, so the type is `text/plain` and the content itself goes into the [`EXTRA_TEXT`](https://developer.android.com/reference/android/content/Intent.html#EXTRA_TEXT) extra.
 
-{% highlight java %}
+```java
 Intent shareIntent = new Intent();
 shareIntent.setAction(Intent.ACTION_SEND);
 shareIntent.setType("text/plain");
-shareIntent.putExtra(Intent.EXTRA_TEXT, "hey kids check out this cool link\n" +
-        "https://example.org/cool-link");
+shareIntent.putExtra(Intent.EXTRA_TEXT, 
+    "hey kids check out this cool link\n" +
+    "https://example.org/cool-link");
 
 startActivity(Intent.createChooser(shareIntent, "Share with"));
-{% endhighlight %}
+```
 
 And that's about all app developers have to do in order to show the Share dialog.
 
