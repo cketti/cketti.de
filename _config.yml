@@ -19,7 +19,7 @@ avatar: "/img/cketti.png"
 
 navbar-col: "#F5F5F5"
 navbar-text-col: "#404040"
-navbar-children-col: "#F5F5F5"
+navbar-border-col: "#EAEAEA"
 page-col: "#FFFFFF"
 link-col: "#008AFF"
 hover-col: "#0085A1"
@@ -29,15 +29,13 @@ footer-link-col: "#404040"
 
 # --- Footer options --- #
 
-author:
-  name: "cketti"
-  twitter: cketti
+author: "cketti"
 
 social-network-links:
   email: "hello@cketti.de"
   github: "cketti"
   twitter: "cketti"
-  mastodon: "https://fosstodon.org/@cketti"
+  mastodon: "fosstodon.org/@cketti"
 
 url-pretty: "cketti.de"
 
@@ -89,58 +87,6 @@ exclude:
   - LICENSE
   - README.md
   - Vagrantfile
-
-# prose.io config
-prose:
-  rooturl: '_posts'
-  media: 'img'
-  ignore:
-    - 404.html
-    - LICENSE
-    - feed.xml
-    - _config.yml
-    - /_layouts
-    - /_includes
-    - /css
-    - /img
-    - /js
-  metadata:
-    _posts:
-      - name: "layout"
-        field:
-          element: "hidden"
-          value: "post"
-      - name: "title"
-        field:
-          element: "text"
-          label: "Post title"
-          placeholder: "Title"
-          alterable: true
-      - name: "subtitle"
-        field:
-          element: "textarea"
-          label: "Subtitle"
-          placeholder: "A description of your post."
-          alterable: true
-      - name: "date"
-        field:
-          element: "text"
-          label: "Date"
-          help: "Enter date of post."
-          placeholder: "yyyy-mm-dd"
-          alterable: true
-      - name: "image"
-        field:
-          element: "text"
-          label: "Image"
-          help: "Add a thumbnail image to your post."
-          placeholder: "Thumbnail"
-          alterable: true
-      - name: "published"
-        field:
-          element: "checkbox"
-          label: "Publish"
-          help: "Check to publish post, uncheck to hide."
 
 plugins:
   - jekyll-paginate

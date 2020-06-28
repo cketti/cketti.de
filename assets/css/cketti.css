@@ -1,0 +1,13 @@
+.image-in-post {
+  text-align: center;
+}
+
+div.gist + h1, div.gist + h2, div.git + h3,
+div.highlighter-rouge + h1, div.highlighter-rouge + h2, div.highlighter-rouge + h3 {
+  margin-top: 1em;
+}
+
+blockquote {
+  padding-left: 1em;
+  border-left: 5px solid #eee;
+}

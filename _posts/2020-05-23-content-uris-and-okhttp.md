@@ -2,7 +2,8 @@
 layout: post
 title: content:// URIs and OkHttp
 lead: Learn how to use OkHttp to upload documents on Android when all you have is a content:// URI.
-bigimg: /img/content-uris-and-okhttp/christa-dodoo-MldQeWmF2_g-unsplash.jpg
+cover-img: /img/content-uris-and-okhttp/christa-dodoo-MldQeWmF2_g-unsplash.jpg
+share-img: /img/content-uris-and-okhttp/christa-dodoo-MldQeWmF2_g-unsplash.jpg
 ---
 
 Over a year ago I typed up an implementation of [OkHttp](https://square.github.io/okhttp/)'s [`RequestBody`](https://square.github.io/okhttp/4.x/okhttp/okhttp3/-request-body/) that supports Android's `content://` URIs. I called it [`ContentUriRequestBody`](https://gist.github.com/cketti/8ac927509787d7085a5ef8f866806f0f) and made it available as a [Gist](https://gist.github.com/).

@@ -2,7 +2,8 @@
 layout: post
 title: "android.net.MailTo is broken"
 lead: "How broken exactly? Can anything be done about it? And what's this for anyway? All questions that will be answered in this post."
-bigimg: /img/android-net-mailto-is-broken/broken.jpg
+cover-img: /img/android-net-mailto-is-broken/broken.jpg
+share-img: /img/android-net-mailto-is-broken/broken.jpg
 ---
 
 The [MailTo](https://developer.android.com/reference/android/net/MailTo) class has been part of the Android Platform API from the very start.
