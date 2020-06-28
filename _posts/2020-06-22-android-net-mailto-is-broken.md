@@ -4,7 +4,8 @@ title: "android.net.MailTo is broken"
 lead: "How broken exactly? Can anything be done about it? And what's this for anyway? All questions that will be answered in this post."
 tags: ["android", "email"]
 readtime: true
-cover-img: /img/android-net-mailto-is-broken/broken.jpg
+cover-img:
+  - "/img/android-net-mailto-is-broken/broken.jpg" : "Photo by <a href='https://unsplash.com/@ruben244?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText'>Ruben Mishchuk</a> on <a href='https://unsplash.com/photos/EC5AQfxgxdE'>Unsplash</a>"
 share-img: /img/android-net-mailto-is-broken/broken.jpg
 ---
 
@@ -153,6 +154,3 @@ Alternatively, you could use `ACTION_SENDTO` with the unmodified URI. For more i
 ## Summary
 
 The fact that `android.net.MailTo` hasn't been fixed in all those years is a good indicator that the class isn't widely used. The main audience is authors of email clients. And we all had to either learn the hard way that we can't rely on this class or never heard about it and went with our own implementation right from the start. As far as I can tell nowadays almost nobody is using `android.net.MailTo`. So let's just mark it as `@Deprecated` and forget all about it. ⚰️
-
-
-Photo by [Ruben Mishchuk](https://unsplash.com/@ruben244?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText) on [Unsplash](https://unsplash.com/photos/EC5AQfxgxdE)

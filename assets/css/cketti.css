@@ -23,3 +23,7 @@ code.highlighter-rouge {
 a code.highlighter-rouge {
   color: #008AFF;
 }
+
+span.img-desc a {
+  color: #eee;
+}

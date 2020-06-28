@@ -4,7 +4,8 @@ title: content:// URIs and OkHttp
 lead: Learn how to use OkHttp to upload documents on Android when all you have is a content:// URI.
 tags: ["android", "content-uri"]
 readtime: true
-cover-img: /img/content-uris-and-okhttp/christa-dodoo-MldQeWmF2_g-unsplash.jpg
+cover-img:
+  - "/img/content-uris-and-okhttp/christa-dodoo-MldQeWmF2_g-unsplash.jpg" : "Photo by <a href='https://unsplash.com/@krystagrusseck?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText'>Christa Dodoo</a> on <a href='https://unsplash.com/photos/MldQeWmF2_g'>Unsplash</a>"
 share-img: /img/content-uris-and-okhttp/christa-dodoo-MldQeWmF2_g-unsplash.jpg
 ---
 
@@ -109,6 +110,3 @@ It works similar to uploading, only this time we get a `java.io.OutputStream` in
 ## Sample app
 
 I hope this post has helped you to understand how to make OkHttp play nice with `content://` URIs. Of course code snippets in blog posts always seem to be missing some crucial bits of information. So I created a small sample app that you can play around with: [OkHttpWithContentUri](https://github.com/cketti/OkHttpWithContentUri)
-
-
-Photo by [Christa Dodoo](https://unsplash.com/@krystagrusseck?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/photos/MldQeWmF2_g)

@@ -87,7 +87,7 @@ var BeautifulJekyllJS = {
   setImg : function(src, desc) {
     $(".intro-header.big-img").css("background-image", 'url(' + src + ')');
     if (typeof desc !== typeof undefined && desc !== false) {
-      $(".img-desc").text(desc).show();
+      $(".img-desc").html(desc).show();
     } else {
       $(".img-desc").hide();
     }
