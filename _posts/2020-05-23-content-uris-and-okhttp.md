@@ -2,6 +2,7 @@
 layout: post
 title: content:// URIs and OkHttp
 lead: Learn how to use OkHttp to upload documents on Android when all you have is a content:// URI.
+readtime: true
 cover-img: /img/content-uris-and-okhttp/christa-dodoo-MldQeWmF2_g-unsplash.jpg
 share-img: /img/content-uris-and-okhttp/christa-dodoo-MldQeWmF2_g-unsplash.jpg
 ---

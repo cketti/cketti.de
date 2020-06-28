@@ -2,6 +2,7 @@
 layout: post
 title: When URI permissions are in the way
 lead: "Since Android's ban on file:// URIs it became a bit harder for apps to use custom notification sounds. Read how I modified FileProvider to do the heavy lifting for you."
+readtime: true
 ---
 
 Last year I read the blog post [Notifications, Sounds, Android 7.0, and Aggravation](https://commonsware.com/blog/2016/09/07/notifications-sounds-android-7p0-aggravation.html) by the always well-informed Mark Murphy. In it Mark describes how the [ban on file: URIs](https://commonsware.com/blog/2016/03/14/psa-file-scheme-ban-n-developer-preview.html) has made things difficult for developers who want to use custom notification sounds. Apparently, the notification subsystem wasn't really prepared for `content:` URIs taking over. It's currently not possible to use [Notification.Builder#setSound(Uri)](https://developer.android.com/reference/android/app/Notification.Builder.html#setSound(android.net.Uri)) with a `content:` URI pointing to a `ContentProvider` that hasn't been exported. That means [`FileProvider`](https://developer.android.com/reference/android/support/v4/content/FileProvider.html), the standard solution when it comes to exposing files via `content:` URIs, won't work.

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Share URL to Clipboard
+readtime: true
 ---
 
 On Android many apps allow the user to share the currently displayed content to another app. Often it's a link to the content on the web together with some additional information, e.g. the headline and maybe the lead of a news article.
@@ -29,7 +30,7 @@ Sharing content on Android is as simple as creating an Intent with the [`ACTION_
 Intent shareIntent = new Intent();
 shareIntent.setAction(Intent.ACTION_SEND);
 shareIntent.setType("text/plain");
-shareIntent.putExtra(Intent.EXTRA_TEXT, 
+shareIntent.putExtra(Intent.EXTRA_TEXT,
     "hey kids check out this cool link\n" +
     "https://example.org/cool-link");
 

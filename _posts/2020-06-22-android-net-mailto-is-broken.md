@@ -2,6 +2,7 @@
 layout: post
 title: "android.net.MailTo is broken"
 lead: "How broken exactly? Can anything be done about it? And what's this for anyway? All questions that will be answered in this post."
+readtime: true
 cover-img: /img/android-net-mailto-is-broken/broken.jpg
 share-img: /img/android-net-mailto-is-broken/broken.jpg
 ---
