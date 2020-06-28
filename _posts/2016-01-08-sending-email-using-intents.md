@@ -2,6 +2,7 @@
 layout: post
 title: Sending Email using Intents
 lead: Many things on Android are as easy as starting an Activity using the right Intent. Sending an email to a specific recipient is one of those things.
+tags: ["android", "email"]
 readtime: true
 ---
 

@@ -2,6 +2,7 @@
 layout: post
 title: When URI permissions are in the way
 lead: "Since Android's ban on file:// URIs it became a bit harder for apps to use custom notification sounds. Read how I modified FileProvider to do the heavy lifting for you."
+tags: ["android", "content-uri"]
 readtime: true
 ---
 
