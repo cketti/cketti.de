@@ -113,6 +113,9 @@ But even with a fix in a new Android version, apps would still need to work arou
 
 If you are using the platform's `MailTo` class and are looking for a drop-in replacement without these bugs, check out my [`MailToCompat`](https://github.com/cketti/MailToCompat) library: [https://github.com/cketti/MailToCompat](https://github.com/cketti/MailToCompat).
 
+**Update:** The fixed class will also be part of the [AndroidX Core](https://developer.android.com/jetpack/androidx/releases/core) library starting with version 1.5.0-alpha02. Big thanks to [Ian Lake](https://twitter.com/ianhlake) for suggesting I [make this a contribution to AndroidX Core](https://issuetracker.google.com/issues/159827506) and then shepherding the change on [r.android.com](https://android-review.googlesource.com/c/platform/frameworks/support/+/1349602) ❤️  
+As soon as the class will be included in a stable release of AndroidX Core I'll retire my `MailToCompat` library.
+
 
 ## Should I be using `MailTo`?
 
@@ -153,4 +156,10 @@ Alternatively, you could use `ACTION_SENDTO` with the unmodified URI. For more i
 
 ## Summary
 
-The fact that `android.net.MailTo` hasn't been fixed in all those years is a good indicator that the class isn't widely used. The main audience is authors of email clients. And we all had to either learn the hard way that we can't rely on this class or never heard about it and went with our own implementation right from the start. As far as I can tell nowadays almost nobody is using `android.net.MailTo`. So let's just mark it as `@Deprecated` and forget all about it. ⚰️
+The fact that `android.net.MailTo` hasn't been fixed in all those years is a good indicator that the class isn't widely used. The main audience is authors of email clients. And we all had to either learn the hard way that we can't rely on this class or never heard about it and went with our own implementation right from the start.
+
+The takeaway is that you shouldn't be using `android.net.MailTo`. Instead use `MailToCompat` or soon `androidx.core.net.MailTo`. And hopefully then we can mark `android.net.MailTo` as `@Deprecated` and forget all about it. ⚰️
+
+---
+
+[Update (2020-07-09)](https://github.com/cketti/cketti.github.io/commits/master/_posts/2020-06-22-android-net-mailto-is-broken.md): I updated the section "[Fixed version](#fixed-version)" with information about the code being included in the AndroidX Core library.
