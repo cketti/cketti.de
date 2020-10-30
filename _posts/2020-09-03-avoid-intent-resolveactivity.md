@@ -21,7 +21,7 @@ if (intent.resolveActivity(packageManager) != null) {
 }
 ```
 
-Due to the new limitations when targeting Android 11 the [`Intent.resolveActivity()`](https://developer.android.com/reference/kotlin/android/content/Intent#resolveActivity(android.content.pm.PackageManager)) call might now return `false` even though using `startActivity()` with the intent would work just fine.
+Due to the new limitations when targeting Android 11 the [`Intent.resolveActivity()`](https://developer.android.com/reference/kotlin/android/content/Intent#resolveActivity(android.content.pm.PackageManager)) call might now return `null` even though using `startActivity()` with the intent would work just fine.
 
 To make this work you could add a `<queries>` entry to `AndroidManifest.xml` as explained in the [documentation](https://developer.android.com/preview/privacy/package-visibility). But my suggestion is to avoid using `Intent.resolveActivity()` in such a case.
 
