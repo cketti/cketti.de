@@ -2,7 +2,7 @@
 layout: post
 title: "Why I hide GitHub issue comments"
 lead: "Not all comments are created equal. Some will be hidden away."
-tags: ["opensource-maintainer"]
+tags: ["opensource"]
 readtime: true
 cover-img:
   - "/img/why-i-hide-github-issue-comments/hide.jpg" : "Photo by <a href='https://unsplash.com/@caleb_woods?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText'>Caleb Woods</a> on <a href='https://unsplash.com/photos/VZILDYoqn_U'>Unsplash</a>"
