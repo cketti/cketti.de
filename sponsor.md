@@ -31,8 +31,7 @@ to donate money to me. While the goal of Liberapay is to facilitate recurring do
 "manual renewal" you can also make one-time donations.
 
 <p>
-<script src="https://liberapay.com/cketti/widgets/button.js"></script>
-<noscript><a href="https://liberapay.com/cketti/donate"><img alt="Donate using Liberapay" src="https://liberapay.com/assets/widgets/donate.svg"></a></noscript>
+<a href="https://liberapay.com/cketti/donate"><img alt="Donate using Liberapay" src="/img/liberapay_donate_button.svg"></a>
 </p>
 
 ### GitHub Sponsors
@@ -53,8 +52,7 @@ monthly donations.
 <p>
 <form action="https://www.paypal.com/donate" method="post" target="_top">
 <input type="hidden" name="hosted_button_id" value="L2S95PDJ6GSMJ" />
-<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
-<img alt="" border="0" src="https://www.paypal.com/en_DE/i/scr/pixel.gif" width="1" height="1" />
+<input type="image" src="/img/paypal_donate_button.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
 </form>
 </p>
 
