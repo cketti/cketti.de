@@ -15,7 +15,11 @@ I want everyone to be able to use my software, not only those who can pay for it
 software I create is available free of charge.
 
 However, open source developers still need to make a living. So if you use one of my projects and can afford it, please
-consider becoming a sponsor. My goal is to be able to work on these projects full-time.
+consider becoming a sponsor. Donations currently allow me to work on open source full time 💖
+
+If you're interested to learn how that whole "full-time open source developer" thing has worked out for me so far, check out these blog posts:
+* [My first year as a full-time open source developer](https://cketti.de/2021/01/14/my-first-year-as-a-full-time-open-source-developer/) (2020)
+* [My second year as a full-time open source developer](https://cketti.de/2022/01/22/my-second-year-as-a-full-time-open-source-developer/) (2021)
 
 For a list of most of my open source contributions check out [cketti on GitHub](https://github.com/cketti).
 
@@ -37,7 +41,7 @@ to donate money to me. While the goal of Liberapay is to facilitate recurring do
 ### GitHub Sponsors
 
 This is a convenient way for users of the development platform [GitHub](https://github.com/) to financially support me 
-with recurring donations.
+with recurring or one-time donations.
 
 <p>
 <iframe src="https://github.com/sponsors/cketti/button" title="Sponsor cketti" height="35" width="116" style="border: 0;"></iframe>
