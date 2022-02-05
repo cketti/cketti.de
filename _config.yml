@@ -12,7 +12,6 @@ author: "cketti"
 navbar-links:
   Blog: "/"
   About: "about"
-  Contact: "contact"
   Sponsor: "sponsor"
 
 avatar: "/img/cketti.png"
@@ -93,3 +92,4 @@ exclude:
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
+  - jekyll-redirect-from
