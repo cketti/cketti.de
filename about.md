@@ -8,8 +8,7 @@ Hi there 👋
 
 I'm **cketti**, an open source developer living in Berlin, Germany. 
 
-Thanks to [donations](/sponsor/) I'm currently able to work on open source full time. 
-Most of that time I spend on [K-9 Mail](https://k9mail.app/), an email app for Android.
+I'm currently employed by Thunderbird to work on [K-9 Mail](https://k9mail.app/)/[Thunderbird](https://thunderbird.net/) on Android.
 But I love all things open source and try to help out where I can 🔧
 
 You can also find me here:
