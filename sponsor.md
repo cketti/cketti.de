@@ -1,78 +1,20 @@
 ---
 layout: page
 title: Become a sponsor
-meta-description: Support cketti's open source development
 ---
 
-## Why?
+Hi there 👋
 
-I am a big fan of [Free/Libre and Open Source Software](https://en.wikipedia.org/wiki/Free_and_open-source_software). 
-As a developer I very much value that it allows me to freely use and if necessary modify software written by others. 
-Since I benefit so much from work people have made available under an open source license it seems only fair that I do 
-the same.
+You've probably ended up here because a link somewhere still points to this page. For a while I was an independent full-time open source developer. On this page I was asking people who used one of my projects to fund development by becoming a sponsor.
 
-I want everyone to be able to use my software, not only those who can pay for it. That's why all of the open source 
-software I create is available free of charge.
+In June 2022 I was hired by Thunderbird to turn [K-9 Mail](https://k9mail.app/) into [Thunderbird](https://thunderbird.net/) on Android. Since I'm now getting paid a salary, I'm not asking you to support me directly. However, the Thunderbird project is funded by user donations. So if you like the work I'm doing, please [donate to Thunderbird](https://mzla.link/k9-give).
 
-However, open source developers still need to make a living. So if you use one of my projects and can afford it, please
-consider becoming a sponsor. Donations currently allow me to work on open source full time 💖
+---
 
-If you're interested to learn how that whole "full-time open source developer" thing has worked out for me so far, check out these blog posts:
+If you're interested in my life as a full-time open source developer, check out these blog posts:
 * [My first year as a full-time open source developer](https://cketti.de/2021/01/14/my-first-year-as-a-full-time-open-source-developer/) (2020)
 * [My second year as a full-time open source developer](https://cketti.de/2022/01/22/my-second-year-as-a-full-time-open-source-developer/) (2021)
 
-For a list of most of my open source contributions check out [cketti on GitHub](https://github.com/cketti).
+---
 
-## How?
-
-There are multiple options to financially support my open source development.
-
-### Liberapay
-
-[Liberapay](https://liberapay.com/) is a recurring donations platform for free software projects. You can use a 
-credit or debit card (Visa, MasterCard, American Express), a Euro bank account (SEPA Direct Debit), or a PayPal account
-to donate money to me. While the goal of Liberapay is to facilitate recurring donations, by selecting 
-"manual renewal" you can also make one-time donations.
-
-<p>
-<a href="https://liberapay.com/cketti/donate"><img alt="Donate using Liberapay" src="/img/liberapay_donate_button.svg"></a>
-</p>
-
-### GitHub Sponsors
-
-This is a convenient way for users of the development platform [GitHub](https://github.com/) to financially support me 
-with recurring or one-time donations.
-
-<p>
-<iframe src="https://github.com/sponsors/cketti/button" title="Sponsor cketti" height="35" width="116" style="border: 0;"></iframe>
-</p>
-
-
-### PayPal
-
-If you don't want to create a Liberapay account, you can give money using PayPal directly. Supports both one-time and
-monthly donations.
-
-<p>
-<form action="https://www.paypal.com/donate" method="post" target="_top">
-<input type="hidden" name="hosted_button_id" value="L2S95PDJ6GSMJ" />
-<input type="image" src="/img/paypal_donate_button.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
-</form>
-</p>
-
-### Bank transfer
-
-For [SEPA](https://en.wikipedia.org/wiki/Single_Euro_Payments_Area) transfers use the following information:
-
-{:.no-border}
-|IBAN:|DE69 4306 0967 7017 5834 01|
-|BIC:|GENODEM1GLS|
-|Name of benificiary:|Christian Ketterer|
-|Reference:|Open Source Development|
-
-<p></p>
-
-----
-
-If you want to donate to the [K-9 Mail](https://k9mail.app/) project in particular, you can do so via 
-[K-9 Mail's Liberapay page](https://liberapay.com/k9mail).
+If you're not here because you're using K-9 Mail/Thunderbird, please consider supporting other open source projects. You can find a list of projects and individuals looking for donations here: [https://liberapay.com/explore/](https://liberapay.com/explore/)
