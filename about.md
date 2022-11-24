@@ -14,7 +14,7 @@ But I love all things open source and try to help out where I can 🔧
 You can also find me here:
 
 * GitHub: [cketti](https://github.com/cketti)
-* Mastodon: [@cketti@fosstodon.org](https://fosstodon.org/@cketti)
+* Mastodon: [@cketti@int21.dev](https://social.int21.dev/@cketti)
 * Speakerdeck: [cketti](https://speakerdeck.com/cketti)
 
 If you want to contact me, please use one of the following options:
